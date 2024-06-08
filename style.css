@@ -248,14 +248,14 @@ body {
     }
 
 
+
     .header {
         flex-direction: column;
         text-align: center;
-        padding: 20px;
     }
 
     .nav-titulo h1 {
-        font-size: 24px;
+        font-size: 16px;
     }
 
     .nav-links {
@@ -292,6 +292,7 @@ body {
 
     .contacto {
         padding: 20px;
+        width: 80%;
     }
 
     .form-accion {
@@ -300,5 +301,14 @@ body {
 
     .form-accion button {
         width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .social-links ul,
+    .social-links li{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
     }
 }
